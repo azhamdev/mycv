@@ -1,0 +1,12 @@
+.navlink {
+  color: #FFC300 !important;
+  margin-right: 30px;
+}
+
+.navlink:hover {
+  color: #886900 !important;
+}
+
+.backgroundNav {
+  background-color: #000814 !important;
+}

@@ -1,0 +1,33 @@
+.backgroundHero {}
+
+.welcome {
+  font-size: 4.4vw;
+  font-weight: 700;
+
+}
+
+span {
+  color: #FFC300;
+}
+
+.wrapper {
+  padding: 4vw;
+}
+
+.buttonCTA {
+  margin-top: 5vh;
+  background-color: transparent !important;
+  border-color: #FFC300 !important;
+  padding-inline: 6vw !important;
+  color: #FFC300 !important;
+  border-radius: 0 !important;
+}
+
+.buttonCTA:hover {
+  background-color: #FFC300 !important;
+  color: #fff !important;
+}
+
+.buttonCTA:active {
+  background-color: #cd9e02 !important;
+}
