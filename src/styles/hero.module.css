@@ -1,9 +1,11 @@
-.backgroundHero {}
-
 .welcome {
   font-size: 4.4vw;
   font-weight: 700;
+}
 
+.title {
+  display: flex;
+  align-items: center;
 }
 
 span {
@@ -30,4 +32,55 @@ span {
 
 .buttonCTA:active {
   background-color: #cd9e02 !important;
+}
+
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageHero {
+  width: 80%;
+}
+
+@media only screen and (min-width:990px) {
+  .backgroundHero {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imageHero {
+    width: 50vw;
+  }
+
+  .imageWrapper {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+  }
+
+  .welcome {
+    font-size: 12vw;
+    font-weight: 700;
+  }
+
+  .buttonCTA {
+    width: 100%;
+  }
+
+  .title {
+    text-align: center;
+  }
+
 }

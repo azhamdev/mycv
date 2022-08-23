@@ -1,0 +1,55 @@
+.Container {
+  background-color: #282B30;
+}
+
+.imageData {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.wrapper {
+  background-color: #000814;
+  padding-inline: 2.3vw;
+  padding-block: 1.7vw;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.skillWrapper {
+  margin-top: 3.5vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill {
+  font-size: 8px;
+  background-color: #282B30;
+  padding: 6px 18px;
+  border-radius: 12px;
+}
+
+.box {
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+
+@media only screen and (min-width:990px) {
+  .Container {
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (max-width:989px) {
+  .box {
+    margin-bottom: 10vh;
+  }
+
+  .RowResponsive {
+    justify-content: center;
+  }
+
+  .Container {
+    margin-top: 12vh;
+  }
+}
